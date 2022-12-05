@@ -1,8 +1,10 @@
 using System;
 using System.Linq;
 
-class Program {
-    public static void Main (string[] args) {
+class Program
+{
+    public static void Main(string[] args)
+    {
         Random r = new Random();
         int[] T = new int[10];
         // zad 1
@@ -38,26 +40,26 @@ class Program {
         // Console.Write("min number is " + min);
 
         //zad 3
-        int max = 0;
-        int maxcount = 0;
-        for (int i = 0; i < T.Length; ++i){
-            T[i] = r.Next(1, 20);
-        }
+        // int max = 0;
+        // int maxcount = 0;
+        // for (int i = 0; i < T.Length; ++i){
+        //     T[i] = r.Next(1, 20);
+        // }
 
-        for (int i = 0; i < T.Length; ++i){
-            Console.Write (T[i] + " ");
-        }
-        for (int i = 0; i < T.Length; ++i){
-            if (T[i] > max){
-                max = T[i];
-            }
-        }
-        for (int i = 0; i < T.Length; ++i){
-            if (T[i] == max){
-                maxcount++;
-            }
-        }
-        Console.Write("max num appears " + maxcount + " times");
+        // for (int i = 0; i < T.Length; ++i){
+        //     Console.Write (T[i] + " ");
+        // }
+        // for (int i = 0; i < T.Length; ++i){
+        //     if (T[i] > max){
+        //         max = T[i];
+        //     }
+        // }
+        // for (int i = 0; i < T.Length; ++i){
+        //     if (T[i] == max){
+        //         maxcount++;
+        //     }
+        // }
+        // Console.Write("max num appears " + maxcount + " times");
 
         //zad 5
         // int max = 0;
@@ -78,7 +80,7 @@ class Program {
         //         min = T[i];
         //     }
         // }
-        
+
         // Console.WriteLine("max - min = " + (max-min));
 
         //zad 6
@@ -90,7 +92,7 @@ class Program {
         // for (int i = 0; i < T.Length; ++i){
         //     Console.Write (T[i] + " ");
         // }
-        
+
         // for (int i = 0; i < T.Length; ++i){
         //     sum += T[i];
         // }
@@ -133,12 +135,15 @@ class Program {
         // if (even > odd){
         //     Console.Write("Even nums is more");
         // }
-        // else{
+        // if (odd > odd{
         //     Console.Write("Odd nums is more");
         // }
+        // else{
+        //     Console.Write("even and odd is equal");
+        // }
 
-        
 
-        
+
+
     }
 }
